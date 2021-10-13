@@ -1,4 +1,4 @@
-name: fastscape-ISTerre
+name: ISTerre-short-course
 channels:
   - conda-forge
 dependencies:
