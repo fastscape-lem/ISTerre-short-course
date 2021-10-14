@@ -1,5 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastscape-lem/ISTerre-short-course/main?urlpath=lab)
-[![Test notebooks](https://github.com/fastscape-lem/ISTerre-short-course/workflows/Test%20notebooks/badge.svg)](https://github.com/fastscape-lem/ISTerre-short-course/actions)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastscape-lem/isterre-short-course/main?urlpath=lab)
+[![Test notebooks](https://github.com/fastscape-lem/isterre-short-course/workflows/Test%20notebooks/badge.svg)](https://github.com/fastscape-lem/isterre-short-course/actions)
 
 # Short Course on Fastscape (ISTerre, Grenoble, October 19 to 21, 2021)
 
@@ -24,7 +24,7 @@ You can run the notebooks in your browser without installing anything thanks to
 "launch binder" badge above and it will launch remotely a new notebook server
 for you:
 
-- [Run on binder](https://mybinder.org/v2/gh/fastscape-lem/ISTerre-short-course/main?urlpath=lab)
+- [Run on binder](https://mybinder.org/v2/gh/fastscape-lem/isterre-short-course/main?urlpath=lab)
 
 This service is for demo purpose only, do not rely on it for doing more serious
 work.
@@ -42,7 +42,7 @@ Run the command below in a terminal to first pull the latest image (note: the
 Docker application must be running, you might need to launch it first):
 
 ```bash
-$ docker pull fastscape/ISTerre-short-course:latest
+$ docker pull fastscape/isterre-short-course:latest
 ```
 
 Then run the command below to start the Jupyterlab application from the Docker
@@ -58,7 +58,7 @@ $ docker run \
     --name short-course-fastscape \
     -p 8888:8888 \
     -v /path/to/local-notebook-folder:/home/jovyan/my-local-folder \
-    fastscape/ISTerre-short-course \
+    fastscape/isterre-short-course \
     jupyter lab --ip 0.0.0.0
 ```
 
@@ -105,10 +105,10 @@ installed, you can install all the packages required to run the notebooks in a
 new conda environment using the following commands:
 
 ```bash
-$ git clone https://github.com/fastscape-lem/ISTerre-short-course
-$ cd ISTerre-short-course
+$ git clone https://github.com/fastscape-lem/isterre-short-course
+$ cd isterre-short-course
 $ conda env create -f environment.yml
-$ conda activate ISTerre-short-course
+$ conda activate isterre-short-course
 ```
 
 Note: you could use [mamba](https://github.com/mamba-org/mamba) instead of
@@ -130,7 +130,7 @@ A few extra steps are required to prepare your contributions. You can first
 update the conda environment using the following command:
 
 ```bash
-$ conda env update -n ISTerre-short-course --file environment-dev.yml 
+$ conda env update -n isterre-short-course --file environment-dev.yml 
 ```
 
 This installs a few additional packages like

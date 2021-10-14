@@ -21,7 +21,7 @@ jobs:
           mamba-version: "*"
           channels: conda-forge,defaults
           channel-priority: true
-          activate-environment: ISTerre-short-course
+          activate-environment: isterre-short-course
           environment-file: environment.yml
       - name: Conda info
         shell: bash -l {0}

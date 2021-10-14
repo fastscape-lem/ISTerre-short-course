@@ -1,4 +1,4 @@
-name: ISTerre-short-course
+name: isterre-short-course
 channels:
   - conda-forge
 dependencies:
